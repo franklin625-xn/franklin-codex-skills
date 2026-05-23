@@ -1,0 +1,7 @@
+interface:
+  display_name: "Franklin Resume PDF"
+  short_description: "Export fixed-layout one-page resume PDFs"
+  default_prompt: "Use $franklin-resume-pdf to convert my finalized English resume content into a fixed one-page A4 PDF."
+
+policy:
+  allow_implicit_invocation: true

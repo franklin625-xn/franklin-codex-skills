@@ -1,0 +1,65 @@
+{
+  "name": "Huidong Lin",
+  "contacts": [
+    {
+      "type": "email",
+      "value": "franklin625@163.com"
+    },
+    {
+      "type": "phone",
+      "value": "+86 159 0109 7325"
+    },
+    {
+      "type": "location",
+      "value": "Beijing, China"
+    },
+    {
+      "type": "linkedin",
+      "value": "huidong-lin"
+    }
+  ],
+  "summary": "Climate and sustainable trade professional with experience in green trade policy, market intelligence, stakeholder coordination, and cross-border sustainability initiatives. Skilled in policy research, carbon market analysis, executive briefing, and program support across international nonprofit and professional service contexts.",
+  "experience": [
+    {
+      "organization": "Environmental Defense Fund",
+      "title": "Specialist, Sustainable Trade",
+      "date": "05/2023 - 05/2026",
+      "location": "Beijing, China",
+      "bullets": [
+        "Supported sustainable trade initiatives focused on climate policy, green supply chains, carbon markets, and cross-border low-carbon transition topics.",
+        "Prepared policy research, market updates, and briefing materials for internal teams and external stakeholders.",
+        "Tracked developments in green trade, carbon border measures, voluntary carbon markets, and related regulatory discussions.",
+        "Coordinated meetings, project timelines, and knowledge products across policy, business, and research partners."
+      ]
+    },
+    {
+      "organization": "Deloitte",
+      "title": "Consultant",
+      "date": "07/2021 - 04/2023",
+      "location": "Beijing, China",
+      "bullets": [
+        "Conducted market research, competitor analysis, and data synthesis for client strategy and operations projects.",
+        "Built Excel-based analysis and presentation materials to support client decision-making.",
+        "Worked with cross-functional project teams to deliver client-ready reports under tight timelines."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Peking University",
+      "degree": "Master of International Public Policy; completed alongside full-time professional work",
+      "date": "09/2023 - 06/2025",
+      "location": "Beijing, China"
+    },
+    {
+      "school": "University of International Business and Economics",
+      "degree": "Bachelor of Economics",
+      "date": "09/2017 - 06/2021",
+      "location": "Beijing, China"
+    }
+  ],
+  "skills": {
+    "languages": "Mandarin Chinese native; English fluent",
+    "skills": "Climate policy research; green trade; carbon markets; market intelligence; Microsoft Office Suite; Excel-based data analysis; Asana"
+  }
+}
