@@ -1,13 +1,13 @@
 ---
 name: franklin-resume-pdf
-description: Convert Franklin's finalized English resume draft or resume_content.json into a stable one-page A4 PDF using a fixed black-and-white resume layout with inline SVG icons, section rules, compact typography, and overflow checks. Use when Codex needs to faithfully structure finalized resume content, validate resume_content.json, or export output/resume.html and output/resume.pdf without tailoring, rewriting, polishing, shortening, inventing, or deleting resume content.
+description: Convert Franklin's finalized English resume draft or resume_content.json into a stable one-page A4 PDF using a fixed black-and-white resume layout with contact-row SVG icons, text-only section headings, section rules, compact typography, and overflow checks. Use when Codex needs to faithfully structure finalized resume content, validate resume_content.json, or export output/resume.html and output/resume.pdf without tailoring, rewriting, polishing, shortening, inventing, or deleting resume content.
 ---
 
 # Franklin Resume PDF
 
 ## Purpose
 
-Use this skill only for stable formatting and PDF export of finalized English resume content. Preserve the fixed one-page A4 layout, section order, typography, spacing, icons, and black-and-white consulting-style design.
+Use this skill only for stable formatting and PDF export of finalized English resume content. Preserve the fixed one-page A4 layout, section order, typography, spacing, contact-row icons, text-only section headings, and black-and-white consulting-style design.
 
 Do not tailor the resume to a job description. Do not rewrite, polish, shorten, invent, or delete content unless the user explicitly asks for content editing.
 
@@ -55,6 +55,6 @@ If content does not fit one page, do not rewrite or delete content. The generato
 - Black and dark gray text with subtle gray section rules.
 - Name at top, contact row below with small inline SVG icons.
 - Sections in this exact order: Professional Summary, Professional Experience, Education, Languages & Skills.
-- Section titles use small inline SVG icons and horizontal rules.
+- Section titles are text-only, bold, and paired with subtle horizontal rules extending to the right.
 - Experience entries use bold organization names on the left, date/location right-aligned, role title below, then compact bullets.
 - Education entries use bold school names on the left, date/location right-aligned, then degree line below.

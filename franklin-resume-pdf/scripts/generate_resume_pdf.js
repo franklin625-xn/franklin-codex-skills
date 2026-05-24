@@ -196,7 +196,7 @@ function renderContacts(contacts) {
 function renderExperience(experience) {
   return experience.map((entry) => {
     const bullets = entry.bullets
-      .map((bullet) => `          <li>${escapeHtml(bullet)}</li>`)
+      .map((bullet) => `          <li><span class="bullet-symbol">•</span><span>${escapeHtml(bullet)}</span></li>`)
       .join("\n");
 
     return `      <article class="entry">

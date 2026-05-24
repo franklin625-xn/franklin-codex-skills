@@ -9,42 +9,42 @@
   --muted: #4b4b4b;
   --rule: #b8b8b8;
   --body-size: 11.4px;
-  --body-line: 1.32;
-  --section-title-size: 16.8px;
-  --section-gap: 10px;
-  --entry-gap: 7px;
+  --body-line: 1.35;
+  --section-title-size: 14px;
+  --section-gap: 12px;
+  --entry-gap: 8px;
   --bullet-gap: 3px;
 }
 
 body.compact-space {
   --page-padding: 0.58in;
-  --section-gap: 8px;
-  --entry-gap: 6px;
+  --section-gap: 10px;
+  --entry-gap: 7px;
 }
 
 body.compact-bullets {
   --page-padding: 0.57in;
-  --section-gap: 7px;
-  --entry-gap: 5px;
-  --bullet-gap: 1.5px;
+  --section-gap: 9px;
+  --entry-gap: 6px;
+  --bullet-gap: 2px;
 }
 
 body.compact-line-height {
   --page-padding: 0.56in;
-  --section-gap: 6px;
+  --section-gap: 8px;
   --entry-gap: 5px;
-  --bullet-gap: 1px;
-  --body-line: 1.26;
+  --bullet-gap: 1.5px;
+  --body-line: 1.30;
 }
 
 body.compact-font {
   --page-padding: 0.55in;
-  --section-gap: 5px;
+  --section-gap: 7px;
   --entry-gap: 4px;
-  --bullet-gap: 0.5px;
+  --bullet-gap: 1px;
   --body-size: 10.5px;
-  --body-line: 1.25;
-  --section-title-size: 16px;
+  --body-line: 1.26;
+  --section-title-size: 13.5px;
 }
 
 * {
@@ -81,7 +81,7 @@ body {
 
 .resume-header {
   text-align: center;
-  margin-bottom: 11px;
+  margin-bottom: 13px;
 }
 
 h1 {
@@ -94,27 +94,38 @@ h1 {
 
 .contact-row {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 4px 13px;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: nowrap;
   color: var(--muted);
   font-size: 12px;
-  line-height: 1.25;
+  line-height: 14px;
 }
 
 .contact-item {
   display: inline-flex;
   align-items: center;
   gap: 4px;
+  height: 14px;
+  line-height: 14px;
   white-space: nowrap;
 }
 
+.contact-item span {
+  display: inline-block;
+  line-height: 14px;
+}
+
 .contact-icon {
-  width: 12px;
-  height: 12px;
-  color: #262626;
-  flex: 0 0 auto;
+  display: block;
+  width: 11px;
+  height: 11px;
+  flex: 0 0 11px;
+  color: #555555;
+  opacity: 0.82;
+  transform: translateY(0.3px);
+  vertical-align: middle;
 }
 
 .resume-section {
@@ -124,22 +135,21 @@ h1 {
 .resume-section h2 {
   display: flex;
   align-items: center;
-  gap: 6px;
-  margin: 0 0 5px;
-  padding-bottom: 3px;
-  border-bottom: 1px solid var(--rule);
+  gap: 9px;
+  margin: 0 0 6px;
   color: #111111;
   font-size: var(--section-title-size);
-  line-height: 1.1;
+  line-height: 1.15;
   font-weight: 700;
   letter-spacing: 0;
 }
 
-.section-icon {
-  width: 15px;
-  height: 15px;
-  flex: 0 0 auto;
-  color: #1f1f1f;
+.resume-section h2::after {
+  content: "";
+  display: block;
+  height: 1px;
+  flex: 1 1 auto;
+  background: var(--rule);
 }
 
 .summary-text,
@@ -179,13 +189,17 @@ h1 {
 }
 
 ul {
-  margin: 3px 0 0 17px;
+  list-style: none;
+  margin: 3px 0 0;
   padding: 0;
 }
 
 li {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  column-gap: 3px;
   margin: var(--bullet-gap) 0 0;
-  padding-left: 1px;
+  padding-left: 0;
 }
 
 li:first-child {
@@ -194,6 +208,12 @@ li:first-child {
 
 .skills-line + .skills-line {
   margin-top: 2px;
+}
+
+.bullet-symbol {
+  color: #222222;
+  line-height: inherit;
+  text-align: left;
 }
 
 strong {

@@ -25,26 +25,6 @@
       <rect x="3.5" y="3.5" width="17" height="17" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/>
       <path d="M8 10v6.3M8 7.6v.1M11.3 16.3v-6.1M11.3 12.7c.6-1.6 3.7-2.2 4.6.1.2.5.2 1.1.2 1.8v1.7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
     </symbol>
-    <symbol id="icon-summary" viewBox="0 0 24 24">
-      <path d="M5 5.5h14M5 10h14M5 14.5h9M5 19h6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-    </symbol>
-    <symbol id="icon-experience" viewBox="0 0 24 24">
-      <rect x="4" y="7" width="16" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/>
-      <path d="M9 7V5.8C9 4.8 9.8 4 10.8 4h2.4c1 0 1.8.8 1.8 1.8V7M4 11.2h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-    </symbol>
-    <symbol id="icon-education" viewBox="0 0 24 24">
-      <path d="M3 8.5 12 4l9 4.5-9 4.5-9-4.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-      <path d="M6.5 10.4v5.1c1.9 1.4 3.8 2.1 5.5 2.1s3.6-.7 5.5-2.1v-5.1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
-    </symbol>
-    <symbol id="icon-skills" viewBox="0 0 24 24">
-      <path d="M5 6.5h5M14 6.5h5M5 12h5M14 12h5M5 17.5h5M14 17.5h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-      <circle cx="3.5" cy="6.5" r=".8" fill="currentColor"/>
-      <circle cx="12.5" cy="6.5" r=".8" fill="currentColor"/>
-      <circle cx="3.5" cy="12" r=".8" fill="currentColor"/>
-      <circle cx="12.5" cy="12" r=".8" fill="currentColor"/>
-      <circle cx="3.5" cy="17.5" r=".8" fill="currentColor"/>
-      <circle cx="12.5" cy="17.5" r=".8" fill="currentColor"/>
-    </symbol>
   </svg>
 
   <main class="page" id="resume-page">
@@ -56,22 +36,22 @@
     </header>
 
     <section class="resume-section" data-section-key="summary">
-      <h2><svg class="section-icon"><use href="#icon-summary"></use></svg><span>Professional Summary</span></h2>
+      <h2><span>Professional Summary</span></h2>
       <p class="summary-text">{{SUMMARY}}</p>
     </section>
 
     <section class="resume-section" data-section-key="experience">
-      <h2><svg class="section-icon"><use href="#icon-experience"></use></svg><span>Professional Experience</span></h2>
+      <h2><span>Professional Experience</span></h2>
 {{EXPERIENCE}}
     </section>
 
     <section class="resume-section" data-section-key="education">
-      <h2><svg class="section-icon"><use href="#icon-education"></use></svg><span>Education</span></h2>
+      <h2><span>Education</span></h2>
 {{EDUCATION}}
     </section>
 
     <section class="resume-section" data-section-key="skills">
-      <h2><svg class="section-icon"><use href="#icon-skills"></use></svg><span>Languages &amp; Skills</span></h2>
+      <h2><span>Languages &amp; Skills</span></h2>
       <p class="skills-line"><strong>Languages:</strong> {{LANGUAGES}}</p>
       <p class="skills-line"><strong>Skills:</strong> {{SKILLS}}</p>
     </section>

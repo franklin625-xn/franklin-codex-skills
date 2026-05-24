@@ -18,7 +18,7 @@
       "value": "huidong-lin"
     }
   ],
-  "summary": "Climate and sustainable trade professional with experience in green trade policy, market intelligence, stakeholder coordination, and cross-border sustainability initiatives. Skilled in policy research, carbon market analysis, executive briefing, and program support across international nonprofit and professional service contexts.",
+  "summary": "Climate, sustainable trade, and policy research professional with experience across international nonprofit, technology, and public information platforms. Focused on green trade policy, carbon market developments, cross-border sustainability initiatives, and stakeholder engagement. Experienced in preparing policy briefs, market intelligence, executive materials, and research outputs for government, business, research, and media audiences.",
   "experience": [
     {
       "organization": "Environmental Defense Fund",
@@ -33,14 +33,23 @@
       ]
     },
     {
-      "organization": "Deloitte",
-      "title": "Consultant",
-      "date": "07/2021 - 04/2023",
+      "organization": "ByteDance",
+      "title": "Public Policy Intern",
+      "date": "07/2022 - 04/2023",
       "location": "Beijing, China",
       "bullets": [
-        "Conducted market research, competitor analysis, and data synthesis for client strategy and operations projects.",
-        "Built Excel-based analysis and presentation materials to support client decision-making.",
-        "Worked with cross-functional project teams to deliver client-ready reports under tight timelines."
+        "Monitored technology policy, platform governance, digital economy, and international regulatory developments to support public policy research and internal briefings.",
+        "Prepared issue summaries, stakeholder maps, and comparative research notes for policy, communications, and business teams."
+      ]
+    },
+    {
+      "organization": "China Belt and Road Portal",
+      "title": "Research Assistant",
+      "date": "03/2021 - 06/2022",
+      "location": "Beijing, China",
+      "bullets": [
+        "Supported research, editing, and publication workflows for Belt and Road policy, trade, investment, and international cooperation content.",
+        "Supported expert network coordination and stakeholder consultations with government agencies, enterprises, research institutions, and media partners."
       ]
     }
   ],
@@ -60,6 +69,6 @@
   ],
   "skills": {
     "languages": "Mandarin Chinese native; English fluent",
-    "skills": "Climate policy research; green trade; carbon markets; market intelligence; Microsoft Office Suite; Excel-based data analysis; Asana"
+    "skills": "Climate policy research; green trade; carbon markets; public policy analysis; stakeholder engagement; market intelligence; briefing materials; Microsoft Office Suite; Excel-based data analysis; Asana"
   }
 }
